@@ -9,13 +9,6 @@ This calculator uses Reverse Polish Notation (RPN), meaning that operations are 
 - `3 4 +` is equivalent to `3 + 4`, the result is `7`.
 - `5 2 *` is equivalent to `5 * 2`, the result is `10`.
 
-### Supported Operations:
-
-- Basic arithmetic operations: `+`, `-`, `*`, `/`, `%`, `^`
-- Standard math functions: `sqrt`, `log`, `round`, `sin`, `cos`, `tan`, `asin`, `acos`, and more.
-- Trigonometric functions and their inverses: `sinh`, `cosh`, `tanh`, `asin`, `acos`, `atan`, etc.
-- Special functions: factorial, subfactorial.
-
 ### Example:
 
 For evaluating the expression:
@@ -42,10 +35,10 @@ Supported functions:
 
 - `+, -, *, /, ^` — arithmetic operations.
 - `sqrt` — square root.
-- `log` — natural logarithm.
+- `log, logb` — logarithms.
 - `round` — round number.
-- `sin, cos, tan` — trigonometric functions.
-- `asin, acos, atan` — inverse trigonometric functions.
-- `fact` — factorial.
+- `sin, cos, tan, cot, csc, sec` — trigonometric functions.
+- `asin, acos, atan, acot, acsc, asec` — inverse trigonometric functions.
+- `fact, sfact` — factorials.
 
 And many more!
