@@ -14,7 +14,7 @@ This calculator uses Reverse Polish Notation (RPN), meaning that operations are 
 - Basic arithmetic operations: `+`, `-`, `*`, `/`, `%`, `^`
 - Standard math functions: `sqrt`, `log`, `round`, `sin`, `cos`, `tan`, `asin`, `acos`, and more.
 - Trigonometric functions and their inverses: `sinh`, `cosh`, `tanh`, `asin`, `acos`, `atan`, etc.
-- Special functions: factorial, subfactorial (`sfact`).
+- Special functions: factorial, subfactorial.
 
 ### Example:
 
