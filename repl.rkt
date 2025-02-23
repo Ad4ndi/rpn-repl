@@ -9,8 +9,8 @@
     (cons "/" (lambda (a b) (if (zero? b) (error "division by zero") (/ a b))))
     (cons "^" (lambda (a b) (expt a b)))
     (cons "sqrt" (lambda (a) (sqrt a)))
-    (cons "log" (lambda (a) (log a)))
-    (cons "logb" (lambda (a b) (log a b)))
+    (cons "ln" (lambda (a) (log a)))
+    (cons "log" (lambda (a b) (log a b)))
     (cons "%" (lambda (a b) (remainder a b)))
     (cons "round" (lambda (a) (round a)))
     (cons "inv" (lambda (a) (/ 1 a)))
@@ -65,12 +65,12 @@
             ((hash-has-key? functions-table t)
              (let ((func (hash-ref functions-table t)))
                (cond
-                 ((member t '("+" "-" "*" "/" "^" "%" "logb"))
+                 ((member t '("+" "-" "*" "/" "^" "%" "log"))
                   (let-values (((a rest1) (safe-pop stack)))
                     (let-values (((b rest2) (safe-pop rest1)))
                       (loop (cons (func b a) rest2) r))))
                  ((member t
-                          '("sqrt" "log" "round" "inv" "fact" "sfact"
+                          '("sqrt" "ln" "round" "inv" "fact" "sfact"
                             "sin" "cos" "tan" "sec" "csc" "cot"
                             "asin" "acos" "atan" "asec" "acsc" "acot"
                             "sinh" "cosh" "tanh" "coth" "sech" "csch"
