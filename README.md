@@ -35,7 +35,7 @@ Supported functions:
 
 - `+, -, *, /, ^` — arithmetic operations.
 - `sqrt` — square root.
-- `log, logb` — logarithms.
+- `ln, log` — logarithms.
 - `round` — round number.
 - `sin, cos, tan, cot, csc, sec` — trigonometric functions.
 - `asin, acos, atan, acot, acsc, asec` — inverse trigonometric functions.
