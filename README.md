@@ -1,6 +1,6 @@
-# RPN Calculator (Racket)
+# RPN Calculator
 
-This is a simple Reverse Polish Notation (RPN) calculator written in Racket. It can perform various mathematical operations, such as addition, subtraction, multiplication, division, and many more. The calculator also supports functions for trigonometry, logarithms, and other mathematical operations.
+This is a simple Reverse Polish Notation (RPN) calculator written in Scheme. It can perform various mathematical operations, such as addition, subtraction, multiplication, division, and many more. The calculator also supports functions for trigonometry, logarithms, and other mathematical operations.
 
 ## Description
 
@@ -34,11 +34,11 @@ For evaluating the expression:
 Supported functions:
 
 - `+, -, *, /, ^` — arithmetic operations.
-- `sqrt` — square root.
+- `sqrt, rt` — roots.
 - `ln, log` — logarithms.
 - `round` — round number.
 - `sin, cos, tan, cot, csc, sec` — trigonometric functions.
 - `asin, acos, atan, acot, acsc, asec` — inverse trigonometric functions.
-- `fact, sfact` — factorials.
+- `!` — factorial.
 
 And many more!
